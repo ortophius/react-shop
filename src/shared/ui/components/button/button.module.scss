@@ -1,0 +1,29 @@
+@use '@globals' as g;
+
+.button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: g.$roundness;
+  appearance: none;
+  background-color: g.$color-black;
+  color: g.$color-white;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  outline: none;
+  text-transform: uppercase;
+  transition: background-color g.$transition;
+}
+
+.button:hover {
+  background-color: g.$color-black-accent;
+}
+
+.light {
+  background-color: g.$color-white;
+  color: g.$color-text;
+}
+
+.light:hover {
+  background-color: g.$color-white-accent;
+}

@@ -1,3 +1,3 @@
-export const HomePage = () => {
-  return <>Hi</>;
-};
+import { Header } from "../../widgets/header";
+
+export const HomePage = () => <Header />;

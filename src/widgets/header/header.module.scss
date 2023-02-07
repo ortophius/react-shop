@@ -1,0 +1,27 @@
+@use '@globals' as g;
+
+.header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background-color: g.$color-black;
+  box-shadow: 0 6px 4px 0 rgb(34 60 80 / 20%);
+  color: g.$color-text;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-basis: 50%;
+}
+
+.right {
+  justify-content: end;
+}
+
+.logo {
+  flex-basis: 200px;
+}

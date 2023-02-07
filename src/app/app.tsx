@@ -1,13 +1,12 @@
-import { createStore } from 'effector';
-import { useStore } from 'effector-react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { HomePage } from '../pages/home/home';
+import { paths } from '../shared/lib/config/paths';
 import './app.scss';
 
 export const App = () => (
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<HomePage />} />
+      <Route path={paths.home()} element={<HomePage />} />
     </Routes>
   </BrowserRouter>
 );
