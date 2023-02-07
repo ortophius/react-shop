@@ -1,0 +1,15 @@
+{
+  "typescript.tsserver.pluginPaths": ["typescript-plugin-css-modules"],
+  "eslint.options": {
+    "ignorePattern": "webpack.config.js"
+  },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": ["scss"],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib"
+}

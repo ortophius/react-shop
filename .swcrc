@@ -1,0 +1,24 @@
+{
+  "jsc": {
+    "baseUrl": "./src",
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "decorators": false,
+      "dynamicImport": true
+    },
+    "transform": {
+      "react": {
+        "runtime": "classic"
+      }
+    },
+    "target": "es2020"
+  },
+  "minify": true,
+  "env": {
+    "dynamicImport": true
+  },
+  "module": {
+    "type": "commonjs"
+  }
+}

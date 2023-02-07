@@ -1,0 +1,11 @@
+{
+  "extends": ["stylelint-config-standard-scss", "stylelint-config-prettier-scss", "stylelint-config-idiomatic-order"],
+  "plugins": [
+    "stylelint-scss",
+    "stylelint-order"
+  ],
+  "rules": {
+    "font-family-no-missing-generic-family-keyword": null,
+    "max-empty-lines": 1
+  }
+}
