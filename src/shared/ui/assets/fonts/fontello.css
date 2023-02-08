@@ -35,3 +35,15 @@
 .icon-basket:before {
   content: '\e802';
 }
+
+.icon-search:before {
+  content: '\e801';
+}
+
+.icon-cancel:before {
+  content: '\e803';
+}
+
+.icon-menu:before {
+  content: '\f008';
+}

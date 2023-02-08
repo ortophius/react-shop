@@ -1,0 +1,64 @@
+@use '@globals' as g;
+
+.suggestions {
+  position: absolute;
+  z-index: 110;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: g.$roundness;
+  margin-top: 0.5rem;
+  background-color: g.$color-white;
+}
+
+.label {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.list {
+  padding-left: 1.5rem;
+  list-style: none;
+}
+
+.product-item,
+.category-item {
+  display: flex;
+  padding: 0.5rem 1rem;
+  border-radius: g.$roundness;
+  cursor: pointer;
+  transition: g.$transition;
+
+  &:hover {
+    background-color: g.$color-white-accent;
+  }
+}
+
+.product-title,
+.category-title {
+  overflow: hidden;
+  flex-grow: 1;
+  font-size: 0.875rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.product-category {
+  margin-left: 16px;
+  font-size: 0.75rem;
+  opacity: 0.6;
+  transition: g.$transition;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.section + .section {
+  margin-top: 1rem;
+}
+
+.empty {
+  text-align: center;
+}

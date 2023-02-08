@@ -1,0 +1,12 @@
+@use '@globals' as g;
+
+.dimmer {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: g.$color-black;
+  opacity: 0.6;
+}
