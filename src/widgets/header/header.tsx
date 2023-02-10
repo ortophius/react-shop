@@ -12,7 +12,7 @@ export const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className={styles.header}>
+    <header className={styles.header}>
       <div className={styles.left}>
         <div className={styles.logo}>
           <NavLink to={paths.home()}>
@@ -35,6 +35,6 @@ export const Header = () => {
           <BasketButton />
         </div>
       </div>
-    </div>
+    </header>
   );
 };

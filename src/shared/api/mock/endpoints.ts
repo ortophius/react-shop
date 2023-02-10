@@ -17,9 +17,8 @@ const createEndpoint: EndpointCreator =
 const limitResponse = <T extends any[]>(res: T, limit: number) =>
   res.slice(0, limit || undefined) as T;
 
-export const getAllProducts = createEndpoint((limit: number, page = 0) => {
-  const startIndex = limit * page;
-  return products.slice(startIndex, limit);
+export const getAllProducts = createEndpoint(() => {
+  return products;
 });
 
 export const getProductById = createEndpoint(

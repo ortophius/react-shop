@@ -7,6 +7,8 @@ export type Product = {
   creationAt: string;
   updatedAt: string;
   category: Category;
+  oneDayShipping: boolean;
+  rating: number;
 };
 
 export type Category = {

@@ -1,3 +1,5 @@
+@use '../shared/ui/globals' as g;
+
 @import 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap';
 @import '@/shared/ui/assets/fonts/fontello.css';
 
@@ -8,6 +10,7 @@
 body {
   display: block;
   margin: 0;
+  color: g.$color-black;
   font-family: 'Open Sans';
 }
 

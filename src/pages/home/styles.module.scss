@@ -1,0 +1,18 @@
+.layout {
+  position: relative;
+  display: grid;
+  padding: 1.5rem;
+  grid-template-columns: 80% auto;
+  overflow-x: clip;
+}
+
+.aside {
+  position: relative;
+  padding-top: 3rem;
+}
+
+.filters {
+  position: sticky;
+  top: calc(68px + 1.5rem);
+  right: 0;
+}

@@ -1,0 +1,54 @@
+@use '@globals' as g;
+
+.container {
+  position: relative;
+  z-index: 110;
+  display: inline-block;
+}
+
+.select {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid g.$color-grey;
+  border-radius: g.$roundness;
+  background: g.$color-white;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: g.$transition;
+
+  &:hover {
+    border: 1px solid transparent;
+    background-color: g.$color-white-accent;
+  }
+}
+
+.dropdown {
+  position: absolute;
+  z-index: 110;
+  top: calc(100% + 0.25rem);
+  left: 0;
+}
+
+.list {
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+  border-radius: g.$roundness;
+  margin: 0;
+  background: g.$color-white;
+  font-size: 0.875rem;
+  list-style: none;
+  white-space: nowrap;
+
+  li {
+    padding: 0.25rem 0.5rem;
+    border-radius: g.$roundness;
+    cursor: pointer;
+    transition: g.$transition;
+
+    &:hover {
+      background-color: g.$color-white-accent;
+    }
+  }
+}

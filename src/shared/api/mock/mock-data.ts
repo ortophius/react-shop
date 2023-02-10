@@ -93,7 +93,7 @@ export const products: Product[] = [
   {
     id: 8,
     title: 'nuevo de prueba Platzi',
-    price: 100000,
+    price: 1198,
     description: 'nuevo descirption platzi',
     images: [
       'https://images.unsplash.com/photo-1601625463687-25541fb72f62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80',
@@ -107,11 +107,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 13,
     title: 'Intelligent Wooden Keyboard',
-    price: 123,
+    price: 968,
     description:
       'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
     images: [
@@ -128,11 +130,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 14,
     title: 'Generic Fresh Bike',
-    price: 744,
+    price: 1000,
     description: 'The Football Is Good For Training And Recreational Purposes',
     images: [
       'https://api.lorem.space/image/furniture?w=640&h=480&r=341',
@@ -148,11 +152,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 15,
     title: 'Intelligent Wooden Shirt',
-    price: 734,
+    price: 792,
     description:
       'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
     images: [
@@ -169,11 +175,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 20,
     title: 'Awesome Metal Computer',
-    price: 369,
+    price: 1165,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -190,11 +198,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 21,
     title: 'Luxurious Fresh Mouse',
-    price: 802,
+    price: 10,
     description:
       'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
     images: [
@@ -211,11 +221,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 22,
     title: 'Gorgeous Concrete Chips',
-    price: 859,
+    price: 969,
     description:
       'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
     images: [
@@ -232,11 +244,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 23,
     title: 'Fantastic Plastic Chips',
-    price: 645,
+    price: 973,
     description:
       'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
     images: [
@@ -253,11 +267,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 24,
     title: 'Generic Steel Chair',
-    price: 97,
+    price: 1146,
     description:
       'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
     images: [
@@ -274,11 +290,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 25,
     title: 'Handcrafted Metal Table',
-    price: 661,
+    price: 484,
     description:
       'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
     images: [
@@ -295,11 +313,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 26,
     title: 'Electronic Rubber Car',
-    price: 566,
+    price: 399,
     description:
       'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
     images: [
@@ -316,11 +336,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 27,
     title: 'Generic Wooden Soap',
-    price: 667,
+    price: 552,
     description:
       'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
     images: [
@@ -337,11 +359,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 28,
     title: 'Bespoke Plastic Fish',
-    price: 70,
+    price: 983,
     description:
       'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
     images: [
@@ -358,11 +382,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 29,
     title: 'Unbranded Frozen Ball',
-    price: 44,
+    price: 1166,
     description:
       'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',
     images: [
@@ -379,11 +405,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 30,
     title: 'Rustic Soft Ball',
-    price: 227,
+    price: 745,
     description:
       'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
     images: [
@@ -400,11 +428,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 31,
     title: 'Awesome Soft Pizza',
-    price: 191,
+    price: 282,
     description:
       "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
     images: [
@@ -421,11 +451,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 32,
     title: 'Licensed Steel Tuna',
-    price: 944,
+    price: 152,
     description:
       'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',
     images: [
@@ -442,11 +474,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 33,
     title: 'Small Frozen Tuna',
-    price: 426,
+    price: 1005,
     description:
       'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
     images: [
@@ -463,11 +497,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 34,
     title: 'Intelligent Granite Ball',
-    price: 471,
+    price: 165,
     description:
       'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
     images: [
@@ -484,11 +520,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 35,
     title: 'Practical Concrete Computer',
-    price: 870,
+    price: 344,
     description:
       'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
     images: [
@@ -505,11 +543,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 36,
     title: 'Rustic Bronze Table',
-    price: 194,
+    price: 79,
     description:
       'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
     images: [
@@ -526,11 +566,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 37,
     title: 'Unbranded Bronze Bike',
-    price: 622,
+    price: 50,
     description: 'The Football Is Good For Training And Recreational Purposes',
     images: [
       'https://api.lorem.space/image/fashion?w=640&h=480&r=3997',
@@ -546,11 +588,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 38,
     title: 'Bespoke Wooden Bacon',
-    price: 163,
+    price: 1089,
     description:
       'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',
     images: [
@@ -567,11 +611,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 39,
     title: 'Refined Frozen Gloves',
-    price: 882,
+    price: 149,
     description:
       'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
     images: [
@@ -588,11 +634,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 2,
   },
   {
     id: 40,
     title: 'Elegant Frozen Fish',
-    price: 198,
+    price: 427,
     description: 'The Football Is Good For Training And Recreational Purposes',
     images: [
       'https://api.lorem.space/image/fashion?w=640&h=480&r=2693',
@@ -608,11 +656,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 41,
     title: 'Sleek Bronze Towels',
-    price: 406,
+    price: 182,
     description:
       'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
     images: [
@@ -629,11 +679,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 42,
     title: 'Tasty Steel Gloves',
-    price: 762,
+    price: 458,
     description:
       'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
     images: [
@@ -650,11 +702,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 43,
     title: 'Luxurious Metal Cheese',
-    price: 958,
+    price: 43,
     description:
       'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
     images: [
@@ -671,11 +725,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 44,
     title: 'Refined Wooden Shoes',
-    price: 116,
+    price: 601,
     description:
       'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
     images: [
@@ -692,11 +748,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 45,
     title: 'Licensed Steel Fish',
-    price: 178,
+    price: 146,
     description:
       "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
     images: [
@@ -713,11 +771,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 46,
     title: 'Modern Wooden Keyboard',
-    price: 93,
+    price: 169,
     description:
       'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
     images: [
@@ -734,11 +794,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 47,
     title: 'Licensed Cotton Car',
-    price: 603,
+    price: 909,
     description:
       'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',
     images: [
@@ -755,11 +817,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 48,
     title: 'Handcrafted Frozen Fish',
-    price: 16,
+    price: 435,
     description:
       'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
     images: [
@@ -776,11 +840,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 49,
     title: 'Oriental Cotton Chicken',
-    price: 630,
+    price: 982,
     description:
       'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
     images: [
@@ -797,11 +863,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 50,
     title: 'Luxurious Wooden Soap',
-    price: 587,
+    price: 342,
     description:
       'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
     images: [
@@ -818,11 +886,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 51,
     title: 'Rustic Cotton Pizza',
-    price: 215,
+    price: 734,
     description:
       "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
     images: [
@@ -839,11 +909,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 52,
     title: 'Ergonomic Granite Fish',
-    price: 831,
+    price: 1002,
     description:
       'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',
     images: [
@@ -860,11 +932,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 53,
     title: 'Modern Steel Sausages',
-    price: 488,
+    price: 489,
     description:
       'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
     images: [
@@ -881,11 +955,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 54,
     title: 'Generic Granite Salad',
-    price: 851,
+    price: 59,
     description:
       'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',
     images: [
@@ -902,11 +978,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 55,
     title: 'Small Wooden Gloves',
-    price: 107,
+    price: 881,
     description:
       'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
     images: [
@@ -923,11 +1001,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 56,
     title: 'Generic Frozen Shoes',
-    price: 68,
+    price: 1183,
     description:
       'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
     images: [
@@ -944,11 +1024,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 57,
     title: 'Tasty Granite Sausages',
-    price: 891,
+    price: 966,
     description:
       'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
     images: [
@@ -965,11 +1047,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 58,
     title: 'Incredible Fresh Tuna',
-    price: 787,
+    price: 459,
     description:
       'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
     images: [
@@ -986,11 +1070,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 2,
   },
   {
     id: 59,
     title: 'Handmade Wooden Salad',
-    price: 339,
+    price: 209,
     description:
       'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
     images: [
@@ -1007,11 +1093,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 60,
     title: 'Practical Cotton Soap',
-    price: 102,
+    price: 659,
     description:
       'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
     images: [
@@ -1028,11 +1116,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 61,
     title: 'Modern Plastic Computer',
-    price: 18,
+    price: 665,
     description:
       "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
     images: [
@@ -1049,11 +1139,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 62,
     title: 'Ergonomic Metal Computer',
-    price: 105,
+    price: 241,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -1070,11 +1162,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 63,
     title: 'Gorgeous Granite Towels',
-    price: 432,
+    price: 709,
     description: 'The Football Is Good For Training And Recreational Purposes',
     images: [
       'https://api.lorem.space/image?w=640&h=480&r=8789',
@@ -1090,11 +1184,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 64,
     title: 'Small Cotton Tuna',
-    price: 928,
+    price: 901,
     description:
       'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
     images: [
@@ -1111,11 +1207,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 65,
     title: 'Practical Concrete Cheese',
-    price: 918,
+    price: 902,
     description:
       'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
     images: [
@@ -1132,11 +1230,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 66,
     title: 'Small Frozen Pants',
-    price: 448,
+    price: 529,
     description:
       'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
     images: [
@@ -1153,11 +1253,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 67,
     title: 'Recycled Fresh Soap',
-    price: 570,
+    price: 1057,
     description:
       'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
     images: [
@@ -1174,11 +1276,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 68,
     title: 'Electronic Fresh Towels',
-    price: 974,
+    price: 901,
     description:
       'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
     images: [
@@ -1195,11 +1299,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 2,
   },
   {
     id: 69,
     title: 'Licensed Rubber Table',
-    price: 445,
+    price: 495,
     description:
       'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
     images: [
@@ -1216,11 +1322,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 70,
     title: 'Sleek Concrete Shirt',
-    price: 69,
+    price: 133,
     description:
       'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
     images: [
@@ -1237,11 +1345,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 71,
     title: 'Tasty Cotton Towels',
-    price: 519,
+    price: 455,
     description:
       'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
     images: [
@@ -1258,11 +1368,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 72,
     title: 'Rustic Concrete Hat',
-    price: 349,
+    price: 726,
     description:
       'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
     images: [
@@ -1279,11 +1391,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 73,
     title: 'Elegant Frozen Soap',
-    price: 127,
+    price: 506,
     description:
       'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
     images: [
@@ -1300,11 +1414,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 74,
     title: 'Sleek Bronze Shoes',
-    price: 281,
+    price: 229,
     description:
       'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
     images: [
@@ -1321,11 +1437,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 75,
     title: 'Handcrafted Bronze Cheese',
-    price: 364,
+    price: 169,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -1342,11 +1460,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 76,
     title: 'Incredible Wooden Car',
-    price: 567,
+    price: 744,
     description:
       'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
     images: [
@@ -1363,11 +1483,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 77,
     title: 'Awesome Soft Mouse',
-    price: 892,
+    price: 1033,
     description:
       'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
     images: [
@@ -1384,11 +1506,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 78,
     title: 'Elegant Rubber Tuna',
-    price: 426,
+    price: 671,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -1405,11 +1529,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 79,
     title: 'Modern Metal Soap',
-    price: 842,
+    price: 945,
     description:
       'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
     images: [
@@ -1426,11 +1552,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 80,
     title: 'Sleek Concrete Table',
-    price: 387,
+    price: 1037,
     description:
       'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
     images: [
@@ -1447,11 +1575,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 2,
   },
   {
     id: 81,
     title: 'Fantastic Concrete Salad',
-    price: 110,
+    price: 89,
     description: 'The Football Is Good For Training And Recreational Purposes',
     images: [
       'https://api.lorem.space/image/shoes?w=640&h=480&r=7360',
@@ -1467,11 +1597,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 82,
     title: 'Tasty Frozen Gloves',
-    price: 464,
+    price: 49,
     description:
       'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
     images: [
@@ -1488,11 +1620,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 83,
     title: 'Ergonomic Cotton Soap',
-    price: 755,
+    price: 846,
     description:
       'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
     images: [
@@ -1509,11 +1643,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 84,
     title: 'Licensed Fresh Chips',
-    price: 122,
+    price: 360,
     description:
       'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
     images: [
@@ -1530,11 +1666,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 85,
     title: 'Licensed Bronze Table',
-    price: 397,
+    price: 328,
     description:
       'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',
     images: [
@@ -1551,11 +1689,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 86,
     title: 'Handmade Plastic Gloves',
-    price: 658,
+    price: 1062,
     description:
       'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
     images: [
@@ -1572,11 +1712,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 87,
     title: 'Generic Fresh Chips',
-    price: 520,
+    price: 821,
     description:
       'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
     images: [
@@ -1593,11 +1735,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 88,
     title: 'Generic Plastic Gloves',
-    price: 240,
+    price: 59,
     description:
       "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
     images: [
@@ -1614,11 +1758,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 89,
     title: 'Rustic Cotton Salad',
-    price: 178,
+    price: 985,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -1635,11 +1781,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 90,
     title: 'Recycled Plastic Keyboard',
-    price: 682,
+    price: 1077,
     description:
       'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
     images: [
@@ -1656,11 +1804,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 91,
     title: 'Tasty Rubber Soap',
-    price: 464,
+    price: 115,
     description:
       'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
     images: [
@@ -1677,11 +1827,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 92,
     title: 'Practical Steel Pizza',
-    price: 607,
+    price: 22,
     description:
       'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
     images: [
@@ -1698,11 +1850,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 93,
     title: 'Recycled Fresh Pants',
-    price: 437,
+    price: 380,
     description:
       'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',
     images: [
@@ -1719,11 +1873,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 94,
     title: 'Handcrafted Steel Pants',
-    price: 176,
+    price: 552,
     description:
       'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
     images: [
@@ -1740,11 +1896,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 2,
   },
   {
     id: 95,
     title: 'Generic Steel Mouse',
-    price: 876,
+    price: 969,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -1761,11 +1919,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 96,
     title: 'Tasty Frozen Tuna',
-    price: 991,
+    price: 111,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -1782,11 +1942,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 97,
     title: 'Rustic Concrete Towels',
-    price: 643,
+    price: 75,
     description:
       'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
     images: [
@@ -1803,11 +1965,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 2,
   },
   {
     id: 98,
     title: 'Sleek Concrete Salad',
-    price: 607,
+    price: 144,
     description:
       'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
     images: [
@@ -1824,11 +1988,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 99,
     title: 'Luxurious Metal Chips',
-    price: 117,
+    price: 1169,
     description:
       "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
     images: [
@@ -1845,11 +2011,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 100,
     title: 'Incredible Bronze Chips',
-    price: 594,
+    price: 63,
     description:
       'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
     images: [
@@ -1866,11 +2034,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 2,
   },
   {
     id: 101,
     title: 'Recycled Concrete Gloves',
-    price: 985,
+    price: 757,
     description:
       'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
     images: [
@@ -1887,11 +2057,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 102,
     title: 'Sleek Frozen Fish',
-    price: 825,
+    price: 636,
     description:
       'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
     images: [
@@ -1908,11 +2080,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 103,
     title: 'Incredible Metal Towels',
-    price: 14,
+    price: 579,
     description:
       'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
     images: [
@@ -1929,11 +2103,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 104,
     title: 'Tasty Bronze Gloves',
-    price: 631,
+    price: 380,
     description:
       'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
     images: [
@@ -1950,11 +2126,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 2,
   },
   {
     id: 105,
     title: 'Electronic Steel Gloves',
-    price: 269,
+    price: 956,
     description:
       'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',
     images: [
@@ -1971,11 +2149,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 106,
     title: 'Awesome Soft Tuna',
-    price: 154,
+    price: 289,
     description:
       'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',
     images: [
@@ -1992,11 +2172,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 107,
     title: 'Intelligent Fresh Chair',
-    price: 954,
+    price: 442,
     description:
       'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
     images: [
@@ -2013,11 +2195,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 108,
     title: 'Bespoke Granite Shirt',
-    price: 807,
+    price: 149,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -2034,11 +2218,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 109,
     title: 'Practical Wooden Fish',
-    price: 706,
+    price: 164,
     description:
       'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
     images: [
@@ -2055,11 +2241,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 110,
     title: 'Luxurious Granite Soap',
-    price: 863,
+    price: 1166,
     description:
       'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
     images: [
@@ -2076,11 +2264,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 111,
     title: 'Fantastic Fresh Salad',
-    price: 773,
+    price: 437,
     description: 'The Football Is Good For Training And Recreational Purposes',
     images: [
       'https://api.lorem.space/image/watch?w=640&h=480&r=9807',
@@ -2096,11 +2286,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 2,
   },
   {
     id: 112,
     title: 'Recycled Concrete Keyboard',
-    price: 153,
+    price: 744,
     description:
       'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',
     images: [
@@ -2117,11 +2309,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 113,
     title: 'Refined Plastic Soap',
-    price: 693,
+    price: 848,
     description:
       'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
     images: [
@@ -2138,11 +2332,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 114,
     title: 'Small Concrete Chair',
-    price: 473,
+    price: 445,
     description:
       'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
     images: [
@@ -2159,11 +2355,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 115,
     title: 'Sleek Soft Cheese',
-    price: 467,
+    price: 568,
     description:
       'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',
     images: [
@@ -2180,11 +2378,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 116,
     title: 'Intelligent Wooden Computer',
-    price: 901,
+    price: 688,
     description:
       'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
     images: [
@@ -2201,11 +2401,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 117,
     title: 'Awesome Granite Soap',
-    price: 682,
+    price: 1031,
     description: 'The Football Is Good For Training And Recreational Purposes',
     images: [
       'https://api.lorem.space/image/watch?w=640&h=480&r=9723',
@@ -2221,11 +2423,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 118,
     title: 'Elegant Rubber Chicken',
-    price: 261,
+    price: 174,
     description:
       'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
     images: [
@@ -2242,11 +2446,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 119,
     title: 'Ergonomic Frozen Towels',
-    price: 324,
+    price: 650,
     description: 'The Football Is Good For Training And Recreational Purposes',
     images: [
       'https://api.lorem.space/image?w=640&h=480&r=1271',
@@ -2262,11 +2468,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 120,
     title: 'Oriental Fresh Shoes',
-    price: 426,
+    price: 686,
     description: 'The Football Is Good For Training And Recreational Purposes',
     images: [
       'https://api.lorem.space/image/shoes?w=640&h=480&r=1997',
@@ -2282,11 +2490,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 2,
   },
   {
     id: 121,
     title: 'Ergonomic Rubber Mouse',
-    price: 176,
+    price: 8,
     description:
       'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
     images: [
@@ -2303,11 +2513,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 122,
     title: 'Intelligent Metal Shoes',
-    price: 28,
+    price: 104,
     description:
       'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',
     images: [
@@ -2324,11 +2536,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 123,
     title: 'Luxurious Rubber Soap',
-    price: 741,
+    price: 1166,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -2345,11 +2559,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 124,
     title: 'Intelligent Rubber Pants',
-    price: 859,
+    price: 17,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -2366,11 +2582,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 125,
     title: 'Luxurious Fresh Computer',
-    price: 244,
+    price: 1075,
     description:
       'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
     images: [
@@ -2387,11 +2605,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 126,
     title: 'Tasty Cotton Mouse',
-    price: 903,
+    price: 445,
     description:
       'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
     images: [
@@ -2408,11 +2628,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 127,
     title: 'Recycled Cotton Shoes',
-    price: 492,
+    price: 676,
     description:
       'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
     images: [
@@ -2429,11 +2651,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 2,
   },
   {
     id: 128,
     title: 'Luxurious Fresh Fish',
-    price: 398,
+    price: 613,
     description:
       "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
     images: [
@@ -2450,11 +2674,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 129,
     title: 'Bespoke Soft Keyboard',
-    price: 178,
+    price: 629,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -2471,11 +2697,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 130,
     title: 'Small Steel Computer',
-    price: 136,
+    price: 558,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -2492,11 +2720,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 131,
     title: 'Unbranded Concrete Computer',
-    price: 703,
+    price: 585,
     description:
       'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
     images: [
@@ -2513,11 +2743,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 132,
     title: 'Modern Frozen Gloves',
-    price: 38,
+    price: 21,
     description:
       "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
     images: [
@@ -2534,11 +2766,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 133,
     title: 'Handcrafted Wooden Tuna',
-    price: 213,
+    price: 577,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -2555,11 +2789,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 134,
     title: 'Recycled Metal Keyboard',
-    price: 829,
+    price: 57,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -2576,11 +2812,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 135,
     title: 'Handmade Concrete Pizza',
-    price: 664,
+    price: 1142,
     description:
       'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
     images: [
@@ -2597,11 +2835,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 136,
     title: 'Gorgeous Bronze Fish',
-    price: 659,
+    price: 1070,
     description:
       'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
     images: [
@@ -2618,11 +2858,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 137,
     title: 'Elegant Bronze Gloves',
-    price: 14,
+    price: 1194,
     description:
       'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
     images: [
@@ -2639,11 +2881,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 138,
     title: 'Sleek Rubber Soap',
-    price: 8,
+    price: 198,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -2660,11 +2904,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 2,
   },
   {
     id: 139,
     title: 'Rustic Plastic Fish',
-    price: 669,
+    price: 574,
     description:
       'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
     images: [
@@ -2681,11 +2927,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 140,
     title: 'Practical Frozen Keyboard',
-    price: 772,
+    price: 265,
     description:
       'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
     images: [
@@ -2702,11 +2950,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 141,
     title: 'Refined Wooden Keyboard',
-    price: 113,
+    price: 267,
     description:
       'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
     images: [
@@ -2723,11 +2973,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 142,
     title: 'Oriental Steel Bacon',
-    price: 292,
+    price: 115,
     description:
       'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
     images: [
@@ -2744,11 +2996,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 2,
   },
   {
     id: 143,
     title: 'Refined Bronze Fish',
-    price: 629,
+    price: 244,
     description:
       'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',
     images: [
@@ -2765,11 +3019,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 144,
     title: 'Intelligent Steel Mouse',
-    price: 495,
+    price: 501,
     description:
       'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
     images: [
@@ -2786,11 +3042,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 2,
   },
   {
     id: 145,
     title: 'Small Soft Fish',
-    price: 373,
+    price: 824,
     description:
       "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
     images: [
@@ -2807,11 +3065,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 146,
     title: 'Intelligent Soft Pizza',
-    price: 35,
+    price: 1144,
     description:
       'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
     images: [
@@ -2828,11 +3088,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 147,
     title: 'Oriental Fresh Computer',
-    price: 888,
+    price: 668,
     description:
       'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
     images: [
@@ -2849,11 +3111,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 148,
     title: 'Bespoke Bronze Hat',
-    price: 810,
+    price: 932,
     description:
       'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',
     images: [
@@ -2870,11 +3134,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 149,
     title: 'Modern Bronze Bike',
-    price: 443,
+    price: 778,
     description:
       'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',
     images: [
@@ -2891,11 +3157,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 150,
     title: 'Generic Frozen Keyboard',
-    price: 385,
+    price: 65,
     description:
       'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',
     images: [
@@ -2912,11 +3180,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 151,
     title: 'Sleek Rubber Bacon',
-    price: 285,
+    price: 735,
     description:
       'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
     images: [
@@ -2933,11 +3203,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 152,
     title: 'Fantastic Plastic Salad',
-    price: 320,
+    price: 881,
     description:
       'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
     images: [
@@ -2954,11 +3226,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 153,
     title: 'Tasty Fresh Bacon',
-    price: 804,
+    price: 1180,
     description: 'The Football Is Good For Training And Recreational Purposes',
     images: [
       'https://api.lorem.space/image?w=640&h=480&r=5630',
@@ -2974,11 +3248,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 154,
     title: 'Refined Bronze Table',
-    price: 284,
+    price: 1150,
     description:
       'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
     images: [
@@ -2995,11 +3271,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 155,
     title: 'Refined Rubber Chair',
-    price: 604,
+    price: 172,
     description: 'The Football Is Good For Training And Recreational Purposes',
     images: [
       'https://api.lorem.space/image/fashion?w=640&h=480&r=5783',
@@ -3015,11 +3293,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 156,
     title: 'Handcrafted Granite Shoes',
-    price: 715,
+    price: 970,
     description:
       "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
     images: [
@@ -3036,11 +3316,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 157,
     title: 'Gorgeous Bronze Soap',
-    price: 774,
+    price: 406,
     description:
       'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
     images: [
@@ -3057,11 +3339,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 158,
     title: 'Handcrafted Rubber Computer',
-    price: 905,
+    price: 587,
     description: 'The Football Is Good For Training And Recreational Purposes',
     images: [
       'https://api.lorem.space/image?w=640&h=480&r=1320',
@@ -3077,11 +3361,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 159,
     title: 'Elegant Wooden Ball',
-    price: 899,
+    price: 28,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -3098,11 +3384,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 160,
     title: 'Gorgeous Wooden Ball',
-    price: 325,
+    price: 42,
     description:
       'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
     images: [
@@ -3119,11 +3407,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 161,
     title: 'Intelligent Soft Bacon',
-    price: 735,
+    price: 811,
     description:
       'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',
     images: [
@@ -3140,11 +3430,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 162,
     title: 'Licensed Bronze Chair',
-    price: 769,
+    price: 488,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -3161,11 +3453,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 163,
     title: 'Unbranded Metal Cheese',
-    price: 631,
+    price: 486,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -3182,11 +3476,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 164,
     title: 'Luxurious Fresh Pants',
-    price: 341,
+    price: 687,
     description:
       'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
     images: [
@@ -3203,11 +3499,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 165,
     title: 'Handmade Rubber Shirt',
-    price: 439,
+    price: 797,
     description:
       'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
     images: [
@@ -3224,11 +3522,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 2,
   },
   {
     id: 166,
     title: 'Bespoke Wooden Shoes',
-    price: 801,
+    price: 259,
     description:
       'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',
     images: [
@@ -3245,11 +3545,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 167,
     title: 'Elegant Fresh Ball',
-    price: 493,
+    price: 396,
     description:
       'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
     images: [
@@ -3266,11 +3568,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 168,
     title: 'Bespoke Metal Chicken',
-    price: 606,
+    price: 1061,
     description:
       'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
     images: [
@@ -3287,11 +3591,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 169,
     title: 'Electronic Metal Computer',
-    price: 939,
+    price: 18,
     description:
       'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
     images: [
@@ -3308,11 +3614,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 170,
     title: 'Elegant Frozen Pants',
-    price: 90,
+    price: 1095,
     description:
       "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
     images: [
@@ -3329,11 +3637,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 171,
     title: 'Luxurious Plastic Bacon',
-    price: 35,
+    price: 877,
     description:
       'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
     images: [
@@ -3350,11 +3660,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 172,
     title: 'Modern Granite Hat',
-    price: 397,
+    price: 446,
     description: 'The Football Is Good For Training And Recreational Purposes',
     images: [
       'https://api.lorem.space/image/furniture?w=640&h=480&r=8049',
@@ -3370,11 +3682,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 173,
     title: 'Sleek Plastic Soap',
-    price: 790,
+    price: 738,
     description:
       'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
     images: [
@@ -3391,11 +3705,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 174,
     title: 'Tasty Concrete Sausages',
-    price: 483,
+    price: 411,
     description:
       'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
     images: [
@@ -3412,11 +3728,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 175,
     title: 'Handcrafted Concrete Shirt',
-    price: 339,
+    price: 1015,
     description: 'The Football Is Good For Training And Recreational Purposes',
     images: [
       'https://api.lorem.space/image/shoes?w=640&h=480&r=2252',
@@ -3432,11 +3750,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 176,
     title: 'Small Cotton Gloves',
-    price: 973,
+    price: 702,
     description:
       'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
     images: [
@@ -3453,11 +3773,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 177,
     title: 'Modern Metal Chicken',
-    price: 844,
+    price: 684,
     description:
       'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
     images: [
@@ -3474,11 +3796,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 178,
     title: 'Incredible Concrete Car',
-    price: 438,
+    price: 955,
     description: 'The Football Is Good For Training And Recreational Purposes',
     images: [
       'https://api.lorem.space/image/fashion?w=640&h=480&r=2963',
@@ -3494,11 +3818,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 179,
     title: 'Handmade Rubber Shirt',
-    price: 7,
+    price: 612,
     description:
       'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',
     images: [
@@ -3515,11 +3841,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 180,
     title: 'Refined Wooden Keyboard',
-    price: 549,
+    price: 1182,
     description:
       'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
     images: [
@@ -3536,11 +3864,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 181,
     title: 'Intelligent Plastic Mouse',
-    price: 200,
+    price: 86,
     description:
       'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
     images: [
@@ -3557,11 +3887,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 182,
     title: 'Handcrafted Cotton Bacon',
-    price: 596,
+    price: 32,
     description:
       'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
     images: [
@@ -3578,11 +3910,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 183,
     title: 'Modern Rubber Bacon',
-    price: 181,
+    price: 975,
     description:
       'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
     images: [
@@ -3599,11 +3933,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 184,
     title: 'Handmade Cotton Cheese',
-    price: 31,
+    price: 377,
     description:
       'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
     images: [
@@ -3620,11 +3956,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 185,
     title: 'Intelligent Metal Chips',
-    price: 903,
+    price: 210,
     description:
       'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
     images: [
@@ -3641,11 +3979,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 186,
     title: 'Sleek Cotton Cheese',
-    price: 501,
+    price: 1142,
     description:
       'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
     images: [
@@ -3662,11 +4002,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 187,
     title: 'Awesome Wooden Bacon',
-    price: 451,
+    price: 780,
     description: 'The Football Is Good For Training And Recreational Purposes',
     images: [
       'https://api.lorem.space/image/shoes?w=640&h=480&r=100',
@@ -3682,11 +4024,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 188,
     title: 'Recycled Steel Chair',
-    price: 778,
+    price: 482,
     description: 'The Football Is Good For Training And Recreational Purposes',
     images: [
       'https://api.lorem.space/image/shoes?w=640&h=480&r=7693',
@@ -3702,11 +4046,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 189,
     title: 'Practical Granite Ball',
-    price: 222,
+    price: 1129,
     description:
       'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
     images: [
@@ -3723,11 +4069,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 190,
     title: 'Licensed Metal Shoes',
-    price: 820,
+    price: 1109,
     description:
       'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
     images: [
@@ -3744,11 +4092,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 2,
   },
   {
     id: 191,
     title: 'Ergonomic Concrete Ball',
-    price: 453,
+    price: 878,
     description:
       'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
     images: [
@@ -3765,11 +4115,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 192,
     title: 'Handcrafted Soft Shirt',
-    price: 950,
+    price: 203,
     description:
       "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
     images: [
@@ -3786,11 +4138,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 193,
     title: 'Intelligent Wooden Pants',
-    price: 597,
+    price: 566,
     description:
       'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
     images: [
@@ -3807,11 +4161,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 194,
     title: 'Fantastic Concrete Shirt',
-    price: 31,
+    price: 417,
     description:
       'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
     images: [
@@ -3828,11 +4184,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 195,
     title: 'Gorgeous Concrete Ball',
-    price: 519,
+    price: 260,
     description:
       'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',
     images: [
@@ -3849,11 +4207,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 201,
     title: 'Car',
-    price: 12000,
+    price: 1015,
     description: 'Car',
     images: [
       'https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200',
@@ -3867,11 +4227,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 202,
     title: 'car2',
-    price: 2,
+    price: 615,
     description: 'asdasd',
     images: [
       'https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200',
@@ -3885,11 +4247,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 203,
     title: 'sds',
-    price: 2,
+    price: 44,
     description: 'asdasasd',
     images: [
       'https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200',
@@ -3903,11 +4267,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 204,
     title: 'asda43',
-    price: 3,
+    price: 414,
     description: 'asd',
     images: [
       'https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200',
@@ -3921,13 +4287,15 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 205,
-    title: 'Toy Pedo',
-    price: 723872378,
-    description: 'Realistic toy pedo movie action figure',
-    images: ['fuerte.jpg'],
+    title: 'Toy Car',
+    price: 1057,
+    description: 'Realistic toy Car movie action figure',
+    images: ['https://api.lorem.space/image/furniture?w=640&h=480&r=1708'],
     creationAt: '2023-02-07T18:29:12.000Z',
     updatedAt: '2023-02-07T18:29:12.000Z',
     category: {
@@ -3937,11 +4305,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 206,
     title: 'Legalize it',
-    price: 420,
+    price: 1011,
     description: "Trust me, it's a good idea",
     images: ['https://placeimg.com/640/480/any'],
     creationAt: '2023-02-07T18:56:42.000Z',
@@ -3953,11 +4323,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 207,
     title: 'dfdsfs',
-    price: 2,
+    price: 918,
     description: 'sdf',
     images: ['https://recetas123.net/wp-content/uploads/arroz-blanco.jpg'],
     creationAt: '2023-02-07T19:01:36.000Z',
@@ -3969,13 +4341,15 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 208,
-    title: 'Toy Pedo',
-    price: 723872378,
-    description: 'Realistic toy pedo movie action figure',
-    images: ['fuerte.jpg'],
+    title: 'Toy Car',
+    price: 259,
+    description: 'Realistic toy Car movie action figure',
+    images: ['https://api.lorem.space/image/furniture?w=640&h=480&r=1708'],
     creationAt: '2023-02-07T19:19:46.000Z',
     updatedAt: '2023-02-07T19:19:46.000Z',
     category: {
@@ -3985,11 +4359,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 2,
   },
   {
     id: 211,
     title: 'New computer today',
-    price: 10000000,
+    price: 433,
     description: 'A description',
     images: ['https://placeimg.com/640/480/any'],
     creationAt: '2023-02-07T20:28:51.000Z',
@@ -4001,11 +4377,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 3,
   },
   {
     id: 212,
     title: 'New Product Course',
-    price: 9999,
+    price: 1097,
     description: 'A description',
     images: ['https://placeimg.com/640/480/any'],
     creationAt: '2023-02-07T20:39:44.000Z',
@@ -4017,11 +4395,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 213,
     title: 'Jarrito',
-    price: 6969,
+    price: 430,
     description: 'A description',
     images: ['https://placeimg.com/640/480/any'],
     creationAt: '2023-02-07T20:40:49.000Z',
@@ -4033,11 +4413,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 0,
   },
   {
     id: 214,
     title: 'New Product',
-    price: 101010,
+    price: 919,
     description: 'A description',
     images: ['https://placeimg.com/640/480/any'],
     creationAt: '2023-02-07T23:48:36.000Z',
@@ -4049,11 +4431,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 215,
     title: 'New Product',
-    price: 101010,
+    price: 483,
     description: 'A description',
     images: [
       'https://i.pinimg.com/236x/ce/59/83/ce59837dd46efcaa5549a75bf2b1e443.jpg',
@@ -4067,11 +4451,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 216,
     title: 'New Product Post 2',
-    price: 666,
+    price: 1017,
     description: 'A description',
     images: ['https://placeimg.com/640/480/any'],
     creationAt: '2023-02-08T00:02:17.000Z',
@@ -4083,11 +4469,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 217,
     title: 'New Product Post 3',
-    price: 888,
+    price: 446,
     description: 'A description',
     images: ['https://placeimg.com/640/480/any'],
     creationAt: '2023-02-08T00:06:02.000Z',
@@ -4099,11 +4487,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 4,
   },
   {
     id: 218,
     title: 'New Product Course',
-    price: 9999,
+    price: 111,
     description: 'A description',
     images: ['https://placeimg.com/640/480/any'],
     creationAt: '2023-02-08T00:23:35.000Z',
@@ -4115,11 +4505,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 0,
   },
   {
     id: 219,
     title: 'Sueter Polo',
-    price: 700,
+    price: 1192,
     description: 'item number 219',
     images: ['https://placeimg.com/640/480/any'],
     creationAt: '2023-02-08T00:31:00.000Z',
@@ -4131,11 +4523,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 3,
   },
   {
     id: 220,
     title: '220',
-    price: 220,
+    price: 43,
     description: 'item number 220',
     images: ['https://placeimg.com/640/480/any'],
     creationAt: '2023-02-08T00:32:05.000Z',
@@ -4147,11 +4541,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 221,
     title: 'New hutlps Product',
-    price: 9875,
+    price: 380,
     description: 'A description',
     images: ['https://placeimg.com/640/480/any'],
     creationAt: '2023-02-08T02:37:30.000Z',
@@ -4163,11 +4559,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 1,
   },
   {
     id: 222,
     title: 'New hutlps Product',
-    price: 9875,
+    price: 498,
     description: 'A description',
     images: ['https://placeimg.com/640/480/any'],
     creationAt: '2023-02-08T02:40:01.000Z',
@@ -4179,11 +4577,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
   {
     id: 224,
     title: '212',
-    price: 212,
+    price: 453,
     description: 'A description',
     images: ['https://placeimg.com/640/480/any'],
     creationAt: '2023-02-08T03:24:46.000Z',
@@ -4195,11 +4595,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: false,
+    rating: 2,
   },
   {
     id: 225,
     title: '212',
-    price: 212,
+    price: 40,
     description: 'A description',
     images: ['https://placeimg.com/640/480/any'],
     creationAt: '2023-02-08T03:25:09.000Z',
@@ -4211,11 +4613,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 1,
   },
   {
     id: 226,
     title: '212',
-    price: 212,
+    price: 131,
     description: 'A description',
     images: ['https://placeimg.com/640/480/any'],
     creationAt: '2023-02-08T03:26:17.000Z',
@@ -4227,11 +4631,13 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 2,
   },
   {
     id: 228,
     title: 'New Product',
-    price: 10,
+    price: 1082,
     description: '2',
     images: ['https://placeimg.com/640/480/any'],
     creationAt: '2023-02-08T06:00:56.000Z',
@@ -4243,5 +4649,7 @@ export const products: Product[] = [
       creationAt: '2023-02-07T16:52:47.000Z',
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
+    oneDayShipping: true,
+    rating: 4,
   },
 ];

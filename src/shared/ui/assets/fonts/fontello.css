@@ -47,3 +47,12 @@
 .icon-menu:before {
   content: '\f008';
 }
+
+.icon-sort:before,
+.icon-sort-down:before {
+  content: '\f160';
+}
+
+.icon-sort-down::before {
+  transform: scaleY(-1);
+}

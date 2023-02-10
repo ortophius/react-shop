@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.sorting {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.sort-button {
+  margin-right: 0.5rem;
+}
