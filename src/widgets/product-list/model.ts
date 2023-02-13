@@ -33,7 +33,7 @@ const sortByPrice = (arr: Product[]) => [
 ];
 
 const sortByRating = (arr: Product[]) => [
-  ...arr.sort((item1, item2) => (item1.rating < item2.rating ? -1 : 1)),
+  ...arr.sort((item1, item2) => (item1.rating < item2.rating ? 1 : -1)),
 ];
 
 const sorts = {

@@ -18,6 +18,7 @@ export const SearchComponent = ({ model }: SearchComponentProps) => {
   });
   const showSuggestions = useStore(model.$showSuggestions);
   const inputRef = useRef<HTMLInputElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   const inputChangeHandler: React.ChangeEventHandler<HTMLInputElement> = (e) =>
     setQuery(e.target.value);
@@ -42,7 +43,7 @@ export const SearchComponent = ({ model }: SearchComponentProps) => {
   }, [query]);
 
   return (
-    <div className={styles.search}>
+    <div className={styles.search} ref={containerRef}>
       <input
         type="text"
         className={styles.input}
@@ -53,7 +54,7 @@ export const SearchComponent = ({ model }: SearchComponentProps) => {
       <button className={styles.button} onClick={searchButtonClickHandler}>
         <i className="icon-search" />
       </button>
-      {showSuggestions && <Suggestions model={model} />}
+      {showSuggestions && <Suggestions model={model} searchRef={containerRef} />}
     </div>
   );
 };

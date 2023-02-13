@@ -16,8 +16,9 @@ module.exports = {
   entry: path.join(__dirname, srcDir, 'index'),
   target: 'web',
   output: {
+    publicPath: '/',
     path: path.join(__dirname, outDir),
-    filename: 'static/[name].[contenthash].js',
+    filename: 'public/[name].[contenthash].js',
     clean: true,
   },
   mode: isProd ? 'production' : 'development',
@@ -91,12 +92,11 @@ module.exports = {
     },
   },
   devServer: {
+    host: 'localhost',
     hot: true,
-    static: {
-      directory: path.join(__dirname, outDir),
-    },
     compress: true,
     port: 3000,
     open: true,
+    historyApiFallback: true,
   },
 };

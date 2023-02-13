@@ -1,0 +1,36 @@
+@use '@globals' as g;
+
+.user-info {
+  display: grid;
+  width: 100%;
+  align-items: start;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 1rem;
+}
+
+.user-info label {
+  display: block;
+}
+
+.error {
+  border: 1px solid g.$color-magenta;
+}
+
+.error-message {
+  display: none;
+}
+
+input:invalid + .error-message {
+  display: block;
+}
+
+.submit,
+.title {
+  grid-column: 1 / 3;
+}
+
+.title {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}

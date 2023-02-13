@@ -23,7 +23,7 @@ export const getAllProducts = createEndpoint(() => {
 
 export const getProductById = createEndpoint(
   (id: number | string) =>
-    products.find((product) => product.id === Number(id)) || ([] as Product[])
+    products.find((product) => product.id === Number(id)) || null
 );
 
 export const getProductsByIds = createEndpoint((ids: (string | number)[]) => {
@@ -39,6 +39,14 @@ export const getProductsByName = createEndpoint(
     )
 );
 
+export const getProductsByCategory = createEndpoint((categoryName: string) => {
+  const res = products.filter(
+    (product) =>
+      product.category.name.toUpperCase() === categoryName.toUpperCase()
+  );
+  return res;
+});
+
 export const getAllCategories = createEndpoint(() => categories);
 
 export const getCategoryById = createEndpoint((id: number | string) =>
@@ -48,7 +56,9 @@ export const getCategoryById = createEndpoint((id: number | string) =>
 export const getCategoriesByName = createEndpoint(
   (name: string, limit: number = 0) =>
     limitResponse(
-      categories.filter((cat) => cat.name.search(name) >= 0),
+      categories.filter(
+        (cat) => cat.name.toUpperCase().search(name.toUpperCase()) >= 0
+      ),
       limit
     )
 );

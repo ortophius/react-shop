@@ -1,8 +1,14 @@
+@use '@globals' as g;
+
 .list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 0.5rem;
+
+  @include g.lg {
+    justify-content: start;
+  }
 }
 
 .sorting {

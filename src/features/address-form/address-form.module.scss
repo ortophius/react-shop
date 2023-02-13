@@ -1,0 +1,52 @@
+.map {
+  overflow: hidden;
+  width: 100%;
+}
+
+.form,
+.title,
+.subtitle {
+  max-width: 640px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.title {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin-bottom: 1rem;
+}
+
+.ymap {
+  overflow: hidden;
+  min-height: 60vh;
+}
+
+.form {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+
+  input {
+    width: 100%;
+  }
+}
+
+.city {
+  grid-column: 1 / -1;
+}
+
+.street {
+  grid-column: 1 / -2;
+}
+
+.house {
+  grid-column: 3 / 4;
+}
+
+.submit {
+  grid-column: 1 / -1;
+}

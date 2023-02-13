@@ -3,10 +3,10 @@ import Logo from '@/shared/ui/assets/logo.svg';
 import { NavLink } from 'react-router-dom';
 import { paths } from '@/shared/lib/config/paths';
 import { Button } from '@/shared/ui/components/button';
-import { BasketButton } from '@/entities/basket';
 import { Search } from '@/features/search';
 import { useState } from 'react';
 import clsx from 'clsx';
+import { BasketButton } from '@/features/cart';
 
 export const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);

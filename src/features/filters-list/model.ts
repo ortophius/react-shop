@@ -17,8 +17,6 @@ export const filtersApplied = createEvent<Filter[]>();
 
 export const $currentFilters = createStore<FilterPayload[]>([]);
 
-$currentFilters.watch((_) => console.log(_));
-
 sample({
   clock: filtersSubmitted,
   source: $currentFilters,

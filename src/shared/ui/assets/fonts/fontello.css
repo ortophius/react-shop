@@ -56,3 +56,7 @@
 .icon-sort-down::before {
   transform: scaleY(-1);
 }
+
+.icon-star:before {
+  content: '\e804';
+}

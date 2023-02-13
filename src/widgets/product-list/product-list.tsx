@@ -1,9 +1,8 @@
-import { ProductCard } from '@/entities/product';
 import { Product } from '@/shared/api/mock/types';
 import { Button } from '@/shared/ui/components/button';
 import { Select } from '@/shared/ui/components/select/select';
 import { useEvent, useStore } from 'effector-react';
-import { useEffect, useLayoutEffect } from 'react';
+import { useEffect } from 'react';
 import {
   $displayProducts,
   sortDirectionChanged,
@@ -14,6 +13,7 @@ import {
   SortDirections,
 } from './model';
 import styles from './product-list.module.scss';
+import { ProductCard } from './ui/product-card/product-card';
 
 type ProductListProps = { items: Product[] };
 
@@ -56,6 +56,7 @@ export const ProductList = ({ items }: ProductListProps) => {
           items={[
             { title: 'По названию', value: SortTypes.BY_NAME },
             { title: 'По цене', value: SortTypes.BY_PRICE },
+            { title: 'По рейтингу', value: SortTypes.BY_RATING },
           ]}
           onChange={(v) => {
             changeSortType(v as SortTypes);

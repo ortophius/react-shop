@@ -2,7 +2,6 @@
 
 .suggestions {
   position: absolute;
-  z-index: 110;
   top: 100%;
   left: 0;
   width: 100%;
@@ -28,6 +27,7 @@
   padding: 0.5rem 1rem;
   border-radius: g.$roundness;
   cursor: pointer;
+  text-decoration: none;
   transition: g.$transition;
 
   &:hover {
@@ -39,15 +39,19 @@
 .category-title {
   overflow: hidden;
   flex-grow: 1;
+  color: g.$color-black;
   font-size: 0.875rem;
+  text-decoration: none;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
 .product-category {
   margin-left: 16px;
+  color: g.$color-black;
   font-size: 0.75rem;
   opacity: 0.6;
+  text-decoration: none;
   transition: g.$transition;
 
   &:hover {

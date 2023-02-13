@@ -1,0 +1,50 @@
+@use '@globals' as g;
+
+.cart-layout {
+  display: flex;
+  flex-direction: column;
+  @include g.lg {
+    flex-direction: row;
+  }
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  order: 2;
+  padding: 2rem;
+  gap: 0.5rem;
+  @include g.lg {
+    order: 1;
+  }
+}
+
+.aside {
+  position: relative;
+  flex-shrink: 0;
+  padding: 2rem;
+  @include g.lg {
+    flex-basis: 360px;
+    order: 2;
+  }
+}
+
+.aside-content {
+  position: sticky;
+  top: calc(68px + 1.5rem);
+}
+
+.total {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+
+  .price {
+    font-weight: 600;
+  }
+}
+
+.pay {
+  width: 100%;
+}

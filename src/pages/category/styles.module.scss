@@ -1,0 +1,27 @@
+@use '@globals' as g;
+
+.layout {
+  position: relative;
+  display: grid;
+  padding: 1.5rem;
+  overflow-x: clip;
+  @include g.lg {
+    grid-template-columns: auto 360px;
+  }
+}
+
+.aside {
+  position: relative;
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+  grid-row: 1;
+  @include g.lg {
+    grid-row: auto;
+  }
+}
+
+.filters {
+  position: sticky;
+  top: calc(68px + 1.5rem);
+  right: 0;
+}

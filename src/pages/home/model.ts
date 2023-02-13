@@ -13,8 +13,6 @@ export const $minPrice = createStore<number>(0);
 
 export const Gate = createGate();
 
-filtersApplied.watch((_) => console.log(_));
-
 sample({
   clock: Gate.open,
   target: getProductsFx,

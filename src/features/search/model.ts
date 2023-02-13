@@ -89,10 +89,6 @@ export const getSearchModel = () => {
     target: $categoriesResults,
   });
 
-  // queryChanged.watch(() => console.log('queryChanged'));
-  // $productsResults.watch((_) => console.log(_));
-  // getProductsFx.watch((_) => console.log(_));
-
   return {
     $productsResults,
     $categoriesResults,

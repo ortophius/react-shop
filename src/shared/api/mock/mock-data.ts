@@ -36,57 +36,6 @@ export const categories: Category[] = [
     creationAt: '2023-02-07T16:52:47.000Z',
     updatedAt: '2023-02-07T16:52:47.000Z',
   },
-  {
-    id: 6,
-    name: 'sdsdfsd',
-    image:
-      'https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200',
-    creationAt: '2023-02-07T17:08:37.000Z',
-    updatedAt: '2023-02-07T17:08:37.000Z',
-  },
-  {
-    id: 7,
-    name: 'Nuevo ',
-    image: 'https://api.lorem.space/image/fashion?w=640&h=480&r=52',
-    creationAt: '2023-02-07T17:16:43.000Z',
-    updatedAt: '2023-02-07T17:16:43.000Z',
-  },
-  {
-    id: 11,
-    name: 'NUEVA CATEGORIA',
-    image: 'https://api.lorem.space/image/watch?w=640&h=480&r=1757',
-    creationAt: '2023-02-07T19:36:50.000Z',
-    updatedAt: '2023-02-07T19:36:50.000Z',
-  },
-  {
-    id: 12,
-    name: 'un nuevo nombre',
-    image: 'https://api.lorem.space/image/watch?w=640&h=480&r=1757',
-    creationAt: '2023-02-07T21:22:09.000Z',
-    updatedAt: '2023-02-07T21:28:00.000Z',
-  },
-  {
-    id: 13,
-    name: 'I create this change in the name',
-    image: 'https://api.lorem.space/image/furniture?w=640&h=480&r=34',
-    creationAt: '2023-02-07T22:31:10.000Z',
-    updatedAt: '2023-02-07T22:41:13.000Z',
-  },
-  {
-    id: 14,
-    name: 'Francisco de Jesús',
-    image: 'https://api.lorem.space/image/furniture?w=640&h=480&r=34',
-    creationAt: '2023-02-08T00:04:56.000Z',
-    updatedAt: '2023-02-08T00:08:22.000Z',
-  },
-  {
-    id: 16,
-    name: 'Nueva Cat',
-    image:
-      'https://firebasestorage.googleapis.com/v0/b/platzi-store-forms.appspot.com/o/category.png?alt=media&token=b6e2a71d-a4f3-4156-b484-f2e492a82531',
-    creationAt: '2023-02-08T02:27:39.000Z',
-    updatedAt: '2023-02-08T02:27:39.000Z',
-  },
 ];
 
 export const products: Product[] = [
@@ -199,7 +148,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 21,
@@ -245,7 +194,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 23,
@@ -337,7 +286,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 27,
@@ -383,7 +332,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 29,
@@ -498,7 +447,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 34,
@@ -521,7 +470,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 35,
@@ -680,7 +629,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 42,
@@ -979,7 +928,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 55,
@@ -1048,7 +997,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 58,
@@ -1094,7 +1043,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 60,
@@ -1208,7 +1157,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 65,
@@ -1231,7 +1180,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 66,
@@ -1277,7 +1226,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 68,
@@ -1438,7 +1387,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 75,
@@ -1598,7 +1547,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 82,
@@ -1644,7 +1593,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 84,
@@ -1667,7 +1616,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 85,
@@ -1713,7 +1662,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 87,
@@ -1759,7 +1708,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 89,
@@ -1828,7 +1777,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 92,
@@ -1943,7 +1892,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 97,
@@ -1989,7 +1938,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 99,
@@ -2196,7 +2145,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 108,
@@ -2310,7 +2259,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 113,
@@ -2537,7 +2486,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 123,
@@ -2583,7 +2532,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 125,
@@ -2767,7 +2716,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 133,
@@ -2859,7 +2808,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 137,
@@ -3066,7 +3015,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 146,
@@ -3227,7 +3176,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 153,
@@ -3340,7 +3289,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 158,
@@ -3500,7 +3449,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 165,
@@ -3683,7 +3632,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T22:40:26.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 173,
@@ -3706,7 +3655,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 174,
@@ -3797,7 +3746,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 178,
@@ -3819,7 +3768,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 179,
@@ -4185,7 +4134,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 195,
@@ -4268,7 +4217,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 204,
@@ -4288,7 +4237,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 205,
@@ -4306,7 +4255,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 206,
@@ -4414,7 +4363,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: false,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 214,
@@ -4488,7 +4437,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: false,
-    rating: 4,
+    rating: 5,
   },
   {
     id: 218,
@@ -4506,7 +4455,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: true,
-    rating: 0,
+    rating: 1,
   },
   {
     id: 219,
@@ -4578,7 +4527,7 @@ export const products: Product[] = [
       updatedAt: '2023-02-07T16:52:47.000Z',
     },
     oneDayShipping: true,
-    rating: 4,
+    rating: 5,
   },
   {
     id: 224,

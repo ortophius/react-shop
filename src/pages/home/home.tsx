@@ -16,8 +16,6 @@ const Page = () => {
   const minPrice = useStore($minPrice);
   const maxPrice = useStore($maxPrice);
 
-  console.log(minPrice, maxPrice);
-
   return (
     <>
       <Header />
